@@ -25,10 +25,14 @@ class Dog {
         GoodDog dog2 = new GoodDog();
         dog2.setSize(25);
 
+        GoodDog dog3 = new GoodDog();
+
         System.out.println("Dog1 size : " + dog1.getSize());
         System.out.println("Dog2 size : " + dog2.getSize());
+        System.out.println("Dog3 size : " + dog3.getSize());
 
         dog1.bark();
         dog2.bark();
+        dog3.bark();
     }
 }
